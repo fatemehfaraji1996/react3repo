@@ -1,16 +1,23 @@
-import React, { useState } from "react"
+import { useState } from "react";
 
-const [count,setcount]=useState("pp")
 function Count() {
+
+    const [count, setCount] = useState(0);
     function add() {
-       setcount +1
+        setCount(count +1)
+    }
+    function reset(params) {
+        setCount(0)
+    }
+    function mines(params) {
+        setCount(count - 1)
     }
     return(
         <>
-    <p>moro</p>
+    <p>{count}</p>
     <button onClick={add}>add</button>
-    <button>reset</button>
-    <button>mines</button>
+    <button onClick={reset}>reset</button>
+    <button onClick={mines}>mines</button>
 
     </>
 )
