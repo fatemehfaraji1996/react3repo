@@ -16,7 +16,7 @@ function Todolist() {
  };
 
  const handleRemoveTodo = (index) => {
-     const updatedTodos = todos.filter((_, i) => i !== index);
+     const updatedTodos = todos.filter((_, i) => i !== index)
      setTodos(updatedTodos);
  };
 
