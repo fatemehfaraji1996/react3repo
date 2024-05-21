@@ -14,6 +14,8 @@ function Count() {
     }
     return(
         <>
+
+        
     <p>{count}</p>
     <button onClick={add}>add</button>
     <button onClick={reset}>reset</button>
