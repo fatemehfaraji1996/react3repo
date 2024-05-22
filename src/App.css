@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #caa0cb;
 }
 .btn{
   padding:20px;
@@ -28,4 +29,9 @@
 button {
   padding: 10px;
   cursor: pointer;
+  color: #dd26e0;
+  background-color: #ebabda;
+}
+h1{
+  color: #820484;
 }
