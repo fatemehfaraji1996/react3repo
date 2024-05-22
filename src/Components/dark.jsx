@@ -5,11 +5,6 @@ function Dark() {
 
  const [isDarkTheme, setDarkTheme] = useState(false)
 
- const handleInputChange = (e) => {
- setInputValue(e.target.value)
- };
-
-
  const toggleTheme = () => {
  setDarkTheme(!isDarkTheme) }
 
